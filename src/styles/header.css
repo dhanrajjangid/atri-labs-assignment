@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    color: #696969;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.navigation{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    cursor: pointer;
+}
+
+.menu ul{
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+}
+
+
+

@@ -1,0 +1,73 @@
+.about-us{
+    display: flex;
+    background-color: #FFF9F3;
+    padding-top: 150px;
+    padding-left: 150px;
+    box-sizing: content-box;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.image-part{
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+    width: 50%;
+    box-sizing: content-box;
+}
+
+.image-part img{
+    width: 460px;
+    border-radius: 30px;
+}
+
+.contant-details{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    border-radius: 25px;
+    row-gap: 20px;
+    font-family: DM Sans;
+    font-weight: 500;
+    top: 200px;
+    right: 300px;
+    box-sizing: border-box;
+}
+
+.address{
+    display: flex;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    width: 350px;
+    width: 50%;
+    color: #8d8d8d;
+}
+
+.text-part{
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    padding-top: 100px;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 50%;
+}
+
+.text-heading{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.paragraph{
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #8d8d8d;
+    width: 80%;
+}
